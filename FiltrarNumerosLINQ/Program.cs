@@ -8,7 +8,7 @@ namespace InventarioApp
     {
         static void Main(string[] args)
         {
-            string rutaArchivo = "inventario_productos.csv"; // o ruta completa si está en otra carpeta
+            string rutaArchivo = "inventario_productos.csv"; 
             string rutaSalida = "resultados_inventario.txt";
 
             var inventario = new Inventario(rutaArchivo);
